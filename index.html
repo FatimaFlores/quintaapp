@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>quinta Aplicacion</title>
+
+<!--GRUPO CSS-->
+<!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>-->
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- GRUPO JAVASCRIPT-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body>
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Conoce el Planeta</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Dia de Tierra </h1>
+<div>
+<p>«En este día, representantes de más de 170 países se reúnen en la Sede de las Naciones Unidas en Nueva York para firmar el Acuerdo de París sobre el Cambio Climático. Este pacto histórico, junto con la Agenda 2030 para el Desarrollo Sostenible, tiene la capacidad de transformar nuestro mundo.»</p>
+<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/dia de la tierra.jpg',1)"><img src="imagenes/dia de la tierra 2.jpg"width="327" height="225" id="Image2" /></a></p>
+<h2>Cuando Comenzo?</h2>
+<p>Desde su comienzo en el año 1970 y  con la participación en EE.UU de 20 millones de personas, el Día de la Tierra se ha convertido en una tradición mundial. Averiguar cuándo es, cómo empezó, cómo evolucionó y lo que puede hacer.</p>
+<h3>¿Cuándo es el Día de la Tierra?</h3>
+<p>Según el refrán “Todos los días es Día de la Tierra”. Pero se celebra popularmente el 22 de abril.</p> 
+<p>¿Por qué?</p>
+
+<p>Rumores persistentes  sostiene que el 22 de abril fue elegido porque es el cumpleaños de Vladimir Lenin, el fundador de la Unión Soviética.</p>
+
+<p>"El objetivo de Lenin era destruir la propiedad privada, objetivo que también comparten los ambientalistas”  publicó en 2004 la web Capitalism Magazine.</p>
+
+<p>Kathleen Rogers, presidenta de la organización del Día de la Tierra en Washington y una de las primeras fundadoras en la organización del Día de la Tierra, se burla de la teoría.</p>
+
+<p>Según Kathleen, en 1970 el  22 de abril fue elegido como Día de la Tierra en parte, porque ese año cayó en un miércoles, el día de la semana para fomentar una amplia participación en las manifestaciones del medio ambiente celebrada en todo el país.</p>
+
+
+<p>"Todo funcionó a la perfección, porque todo el mundo estaba en el trabajo y al terminar fueron a la manifestación” dijo Kathleen.</p>
+
+<p>De hecho, más de 20 millones de personas en los EE.UU. participaron en el primer Día de la Tierra.
+A partir de entonces, el Día de la Tierra se celebra cada año con la participación de más de mil millones de personas en 180 países de todo el mundo, según los datos de Rogers.</p>
+<h3>¿Qué hacer durante el Día de la Tierra?</h3>
+
+<p>Para aquellos cuya conciencia ecologista se pronuncia el 22 de abril, Día de la Tierra, Rogers anima a establecer  un compromiso público para realizar una acción relacionada 
+con el medio ambiente.</p>
+
+
+<p>Comprometerse con ideas promovidas por la plataforma el Día de la Tierra incluyen la promesa de educar a sus amigos y familiares sobre el calentamiento global o comprar productos ecológicos como bombillas para el ahorro de energía.</p>
+
+
+<p>Los compromisos son parte de una iniciativa de un año de duración llamado la Generación Verde, que conduce hasta el 40 º aniversario del Día de la Tierra en 2010.
+
+De acuerdo con Rogers, todos son parte de esta generación, que marca la transición de la revolución industrial a la revolución verde.</p>
+
+
+<p>"También se trata de la generación de energía verde y la generación de empleos verdes. ... Cada vez que mencionas “Generación Verde”, la gente sabe a qué ideas te estás refiriendo, y eso es exactamente lo que queremos. "</p>
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Planeta en Peligro</h1>
+<div>
+<h2>Calentamiento Global</h2>
+<h3>Que es el Calentamiento global?</h3>
+ <p>El termino Calentamiento Global se refiere al aumento gradual de las temperaturas de la atmosfera y oceanos de la Tierra que se ha detectado en la actualidad, ademas de su continuo aumento que se proyecta a futuro.</p>
+   
+<p>Nadie pone en duda el aumento de la temperatura global, lo que todavia genera controversia es la fuente y razon de este aumento de la temperatura. Aun asi, la mayor parte de la comunidad cientifica asegura que hay mas que un 90% de certeza que el aumento se debe al aumento de las concentraciones de gases de efecto invernadero por las actividades humanas que incluyen deforestacion y la quema de combustibles fosiles como el petroleo y el carbon. Estas conclusiones son avaladas por las academias de ciencia de la mayoria de los paises industrializados.</p>
+<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','imagenes/sus2.jpg',3)"><img src="imagenes/sus1.jpg" width="327" height="225" id="Image4"/></a></p>
+<h3>Como Convatirlo</h3>
+<p>1.- Cambia de Luz 
+Si cambias una bombilla normal por una compacta fluorescente ahorraras 400 kilos de dioxido de carbono al año.</p> 
+
+<p>2.- Conduce menos 
+Camina, muevete en bici, comparte el auto, o utiliza el transporte publico mas a menudo. Ahorraras 1.5 Kg de dioxido de carbono por cada 5 kilometros que hagas sin conducir.</p> 
+
+<p>3.- Recicla mas 
+Puedes ahorrar 1.000 kilos de dioxido de carbono al año con solo reciclar la mitad de tu basura.</p> 
+
+<p>4.- Comprueba tus neumaticos 
+Mantenerlos inflados correctamente puede mejorar el rendimiento de combustible de tu vehiculo. Cada litro de gasolina libera 2.5 Kg de dioxido de carbono.</p>
+
+<p>5.- Usa menos agua caliente 
+Calentar agua consume mucha energia. Instala una ducha de baja presion (ahorras 3 toneladas de dioxido de carbono al año) o lavando la ropa en agua fria o templada (ahorras 225 kilos al año).</p> 
+
+<p>6.- Evita comprar productos con mucho envoltorio 
+Puedes ahorrar 545 kilos de dioxido de carbono si reduces tu basura en un 10%.</p> 
+
+<p>7.- Regula el termostato 
+Baja el termostato 2 grados en invierno y subelo 2 grados en verano. Con este sencillo ajuste, podras ahorrar unos 900 kilos de dioxido de carbono al año.</p> 
+
+<p>8.- Planta un arbol 
+Un solo arbol absorve una tonelada de dioxido de carbono a lo largo de su vida.</p>
+
+<p>9.- Apaga los aparatos electronicos que no estas utilizando 
+Solo con apagar la TV, el DVD, el Equipo de Musica y el PC cuando no los estas utilizando, ahorraras miles de kilos de dioxido de carbono al año. </p>
+<h3>Click en la imagen</h3>
+   <a href="https://www.youtube.com/watch?v=4xeaokpjUcs" target="_blank"><img src="imagenes/53.jpg" width="25%"></a>
+ </div>
+</div>
+</div>
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Cuida tu Comunidad</h2>
+    </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Galeria</h2>
+    </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Reflexiona Sobre el Tema</h2>
+    </a>
+  </li>
+  </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Dia de la Tierra</h4>
+    <h4>Aplicacion5</h4>
+    <h4> Fatima Flores Hernandez</h4>
+ <img src="imagenes/Space-Art-icon.png"width="46" height="46">
+   </div>
+  </div>
+</div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Cuida tu Comunidad</h1>
+  </div>
+
+  <div data-role="content" align="center">
+    <div>
+    <h2>Que hacer</h2>
+ <p>En la comunidad:</p> 
+
+<p>Organizar y participar en programas de educacion y concientizacion ambiental, a fin de resolver problemas ambientales de la comunidad.</p>  
+<div data-role="cntent" align="center">
+       <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','imagenes/sus1.jpg',5)"><img src="imagenes/comunidad.jpg" width="327" height="225" id="Image6"/></a></p>
+      
+
+<p>Participar en jornadas de limpieza y mantenimiento de areas comunes: calles, avenidas, pasillos de edificios, canchas deportivas</p>  
+
+
+<p>Conservar limpios y en buen estado los parques, plazas y areas deportivas.</p>  
+ 
+
+<p>Cuidar y mantener limpias las unidades de transporte colectivos y otros servicios publicos.</p>
+     </div>
+        </div>
+        </div>
+      <div data-role="footer" align="center" data-theme="b">
+  <div>
+   <img src="imagenes/Space-Art-icon.png"width="46" height="46">
+   </div>
+   <div>
+   <h4>Dia de la Tierra</h4>
+    <h4>Aplicacion5</h4>
+    <h4> Fatima Flores Hernandez</h4>
+   </div>
+</div>
+        </div>
+     </div>
+ 
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Galeria</h1>
+    </div>
+     <div data-role="content" align="center">
+     <div>
+    <h2>La Contaminacion En mi comunidad</h2>
+<iframe src="visor/indexwow.html" style="width:350px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+
+    </div>
+    </div>
+     
+ <div data-role="footer" align="center" data-theme="b">
+  <div>
+   <img src="imagenes/Space-Art-icon.png"width="46" height="46">
+   </div>
+   <div>
+   <h4>Dia de la Tierra</h4>
+    <h4>Aplicacion5</h4>
+    <h4> Fatima Flores Hernandez</h4>
+   </div>
+</div>
+   </div>
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Cuidalo</h1>
+    </div>
+     <div data-role="content" align="center">
+    <div>  
+    <p>Diariamente nuestro mundo esta destruyendose 
+somo culpables de porque no usamos nuestra mente 
+contaminamos y talamos, incontroladamente 
+y no pensamos en el futuro de la gente. 
+
+La capa de ozono se degenera rapidamente 
+y debemos actuar para frenar este inconveniente 
+quiere, amalo, cuidalo, protegelo apasionadamente 
+porque es nuestro futuro</p>
+
+ <p>Nosotros los humanos debemos reflexionar sobre el daño que le causamos a nuestro hogar, la tierra, continuamente, debemos ayudarlo constantemente y no solo eso, tambien amarlo y cuidarlo ya que sin el muy posiblemente no tendriamos la opcion de cuidarlo o arruinarlo</p>
+ <img src="imagenes/images (2).jpg"
+ 
+     </div>
+     </div>
+   <div data-role="footer" align="center" data-theme="b">
+  <div>
+   <img src="imagenes/Space-Art-icon.png"width="46" height="46">
+   </div>
+   <div>
+   <h4>Dia de la Tierra</h4>
+    <h4>Aplicacion5</h4>
+    <h4> Fatima Flores Hernandez</h4>
+   </div>
+</div>
+     </div>
+     </div>
+
+</body>
+</html>
